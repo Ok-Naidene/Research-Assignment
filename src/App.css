@@ -1,0 +1,49 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 1000px; 
+  margin: 0 auto; 
+  }
+  header {
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .recommendation {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  
